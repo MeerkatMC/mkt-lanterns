@@ -3,7 +3,7 @@
   "header": {
     "name": "More Lighting",
     "description": "More Lighting",
-    "uuid": "34fff2ad-c3f3-44e9-b0d6-4edcdf5fa4ce",
+    "uuid": "500c9d0e-5241-46e8-9416-9c87013efb77",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 70]
   },
@@ -11,13 +11,13 @@
     {
       "description": "My Resource Pack",
       "type": "resources",
-      "uuid": "cfb4fae8-f675-4769-8d18-c14e713a4e40",
+      "uuid": "dfcf42f9-83dd-4b37-b8e5-7e745d2ad5e3",
       "version": [1, 0, 0]
     }
   ],
   "dependencies": [
     {
-      "uuid": "a20a9f05-d0dd-4332-b1db-7b81ae07d954",
+      "uuid": "a3304bef-49b9-45f8-95e7-1495c6f627c0",
       "version": [1, 0, 0]
     }
   ]

@@ -1,1 +1,7 @@
-tile.myname:lanterns.name=Lanterns
+tile.mkt:lantern_andesite.name=Andesite Lantern
+tile.mkt:lantern_calcite.name=Calcite Lantern
+tile.mkt:lantern_diorite.name=Diorite Lantern
+tile.mkt:lantern_granite.name=Granite Lantern
+tile.mkt:lantern_sandstone.name=Sandstone Lantern
+tile.mkt:lantern_stone.name=Stone Lantern
+tile.mkt:lantern_tuff.name=Tuff Lantern

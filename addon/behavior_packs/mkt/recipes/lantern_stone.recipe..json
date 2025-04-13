@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:lantern_stone"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["ngn", "gtg", "sgs"],
+    "key": {
+      "n": { "item": "minecraft:iron_nugget" },
+      "g": { "item": "minecraft:glass_pane" },
+      "t": { "item": "minecraft:torch" },
+      "s": { "item": "minecraft:stone" }
+    },
+    "result": [
+      {
+        "item": "mkt:lantern_stone",
+        "count": 2
+      }
+    ]
+  }
+}
