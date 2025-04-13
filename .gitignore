@@ -1,3 +1,5 @@
+addon/lib
+
 # Logs
 logs
 *.log
