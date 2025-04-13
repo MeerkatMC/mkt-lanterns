@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "More Lighting",
+    "description": "More Lighting",
+    "uuid": "34fff2ad-c3f3-44e9-b0d6-4edcdf5fa4ce",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 70]
+  },
+  "modules": [
+    {
+      "description": "My Resource Pack",
+      "type": "resources",
+      "uuid": "cfb4fae8-f675-4769-8d18-c14e713a4e40",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a20a9f05-d0dd-4332-b1db-7b81ae07d954",
+      "version": [1, 0, 0]
+    }
+  ]
+}
