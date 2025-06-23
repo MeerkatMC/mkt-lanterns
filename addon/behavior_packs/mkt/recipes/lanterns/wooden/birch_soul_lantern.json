@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:birch_soul_lantern"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "#l#", "###"],
+    "key": {
+      "#": {
+        "item": "minecraft:birch_planks"
+      },
+      "l": {
+        "item": "minecraft:soul_torch"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:birch_planks"
+      },
+      {
+        "item": "minecraft:soul_torch"
+      }
+    ],
+    "result": {
+      "item": "mkt:birch_soul_lantern",
+      "count": 3
+    }
+  }
+}

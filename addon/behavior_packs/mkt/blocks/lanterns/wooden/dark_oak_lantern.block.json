@@ -1,0 +1,133 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mkt:dark_oak_lantern",
+      "menu_category": {
+        "category": "items"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:block_face"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:light_emission": 15,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_axe', 'minecraft:wooden_tier')"
+            },
+            "destroy_speed": 0.7
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_axe', 'minecraft:stone_tier')"
+            },
+            "destroy_speed": 0.65
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_axe', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 0.5
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_axe', 'minecraft:golden_tier')"
+            },
+            "destroy_speed": 0.65
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_axe', 'minecraft:diamond_tier')"
+            },
+            "destroy_speed": 0.38
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_axe', 'minecraft:netherite_tier')"
+            },
+            "destroy_speed": 0.31
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "dark_oak_lantern_top",
+          "render_method": "opaque",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        },
+        "down": {
+          "texture": "dark_oak_lantern_top",
+          "render_method": "opaque",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        },
+        "*": {
+          "texture": "dark_oak_lantern_side",
+          "render_method": "opaque",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up", "down"]
+          }
+        ]
+      },
+      "minecraft:map_color": "#7d7d7d"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wooden_lantern",
+            "bone_visibility": {
+              "upper": "q.block_state('minecraft:block_face') == 'down'",
+              "lower": "q.block_state('minecraft:block_face') == 'up'"
+            }
+          },
+          "minecraft:collision_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 14, 8]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 14, 8]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.wooden_lantern",
+            "bone_visibility": {
+              "upper": "q.block_state('minecraft:block_face') == 'down'",
+              "lower": "q.block_state('minecraft:block_face') == 'up'"
+            }
+          },
+          "minecraft:collision_box": {
+            "origin": [-4, 2, -4],
+            "size": [8, 14, 8]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 2, -4],
+            "size": [8, 14, 8]
+          }
+        }
+      }
+    ]
+  }
+}

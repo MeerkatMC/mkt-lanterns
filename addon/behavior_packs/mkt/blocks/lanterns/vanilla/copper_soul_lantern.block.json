@@ -1,0 +1,125 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mkt:copper_soul_lanterns",
+      "menu_category": {
+        "category": "items"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:block_face"]
+        }
+      }
+    },
+    "components": {
+      "minecraft:light_emission": 10,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+            },
+            "destroy_speed": 0.8
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+            },
+            "destroy_speed": 0.75
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+            },
+            "destroy_speed": 0.5
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+            },
+            "destroy_speed": 0.75
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+            },
+            "destroy_speed": 0.38
+          },
+          {
+            "item": {
+              "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+            },
+            "destroy_speed": 0.31
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "copper_soul_lantern",
+          "render_method": "opaque",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up", "down"]
+          }
+        ]
+      },
+      "minecraft:map_color": "#7d7d7d"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.mkt.vanilla_lantern",
+            "bone_visibility": {
+              "chain_mid": false,
+              "chain_top": false
+            }
+          },
+          "minecraft:collision_box": {
+            "origin": [-3, 0, -3],
+            "size": [6, 9, 6]
+          },
+          "minecraft:selection_box": {
+            "origin": [-3, 0, -3],
+            "size": [6, 9, 6]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "geometry.mkt.vanilla_lantern",
+            "bone_visibility": {
+              "chain_lower_2": false,
+              "chain_mid": true,
+              "chain_top": true
+            }
+          },
+          "minecraft:transformation": {
+            "translation": [0, 0.06, 0]
+          },
+          "minecraft:collision_box": {
+            "origin": [-3, 0, -3],
+            "size": [6, 9, 6]
+          },
+          "minecraft:selection_box": {
+            "origin": [-3, 0, -3],
+            "size": [6, 9, 6]
+          }
+        }
+      }
+    ]
+  }
+}

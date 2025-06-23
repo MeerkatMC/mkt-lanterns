@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:lamp_tall"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["wsw", " s ", " b "],
+    "key": {
+      "w": { "tag": "minecraft:wool" },
+      "s": { "item": "minecraft:stick" },
+      "b": { "tag": "minecraft:wooden_slabs" }
+    },
+    "unlock": [{ "item": "minecraft:stick" }],
+    "result": {
+      "item": "mkt:lamp_tall"
+    }
+  }
+}

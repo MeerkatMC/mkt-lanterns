@@ -1,11 +1,185 @@
 {
-	"resource_pack_name": "vanilla",
-	"texture_name": "atlas.terrain",
-	"padding": 8,
-	"num_mip_levels": 4,
-	"texture_data": {
-		"lantern_face": {
-			"textures": "textures/blocks/light.png"
-		}
-	}
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "lantern_face": {
+      "textures": "textures/blocks/mkt/lanterns/light.png"
+    },
+    "acacia_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/acacia_lantern_top.png"
+    },
+    "acacia_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/acacia_lantern_side.png"
+    },
+    "acacia_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/acacia_soul_lantern_side.png"
+    },
+    "acacia_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/acacia_redstone_lantern_side.png"
+    },
+    "bamboo_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/bamboo_lantern_top.png"
+    },
+    "bamboo_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/bamboo_lantern_side.png"
+    },
+    "bamboo_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/bamboo_soul_lantern_side.png"
+    },
+    "bamboo_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/bamboo_redstone_lantern_side.png"
+    },
+    "birch_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/birch_lantern_top.png"
+    },
+    "birch_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/birch_lantern_side.png"
+    },
+    "birch_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/birch_soul_lantern_side.png"
+    },
+    "birch_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/birch_redstone_lantern_side.png"
+    },
+    "cherry_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/cherry_lantern_top.png"
+    },
+    "cherry_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/cherry_lantern_side.png"
+    },
+    "cherry_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/cherry_soul_lantern_side.png"
+    },
+    "cherry_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/cherry_redstone_lantern_side.png"
+    },
+    "crimson_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/crimson_lantern_top.png"
+    },
+    "crimson_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/crimson_lantern_side.png"
+    },
+    "crimson_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/crimson_soul_lantern_side.png"
+    },
+    "crimson_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/crimson_redstone_lantern_side.png"
+    },
+    "dark_oak_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/dark_oak_lantern_top.png"
+    },
+    "dark_oak_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/dark_oak_lantern_side.png"
+    },
+    "dark_oak_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/dark_oak_soul_lantern_side.png"
+    },
+    "dark_oak_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/dark_oak_redstone_lantern_side.png"
+    },
+    "jungle_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/jungle_lantern_top.png"
+    },
+    "jungle_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/jungle_lantern_side.png"
+    },
+    "jungle_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/jungle_soul_lantern_side.png"
+    },
+    "jungle_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/jungle_redstone_lantern_side.png"
+    },
+    "mangrove_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/mangrove_lantern_top.png"
+    },
+    "mangrove_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/mangrove_lantern_side.png"
+    },
+    "mangrove_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/mangrove_soul_lantern_side.png"
+    },
+    "mangrove_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/mangrove_redstone_lantern_side.png"
+    },
+    "oak_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/oak_lantern_top.png"
+    },
+    "oak_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/oak_lantern_side.png"
+    },
+    "oak_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/oak_soul_lantern_side.png"
+    },
+    "oak_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/oak_redstone_lantern_side.png"
+    },
+    "spruce_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/spruce_lantern_top.png"
+    },
+    "spruce_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/spruce_lantern_side.png"
+    },
+    "spruce_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/spruce_soul_lantern_side.png"
+    },
+    "spruce_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/spruce_redstone_lantern_side.png"
+    },
+    "warped_lantern_top": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/warped_lantern_top.png"
+    },
+    "warped_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/warped_lantern_side.png"
+    },
+    "warped_soul_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/warped_soul_lantern_side.png"
+    },
+    "warped_redstone_lantern_side": {
+      "textures": "textures/blocks/mkt/lanterns/wooden/warped_redstone_lantern_side.png"
+    },
+    "amethyst_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/amethyst_lantern.png"
+    },
+    "amethyst_soul_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/amethyst_soul_lantern.png"
+    },
+    "quartz_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/quartz_lantern.png"
+    },
+    "quartz_soul_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/quartz_soul_lantern.png"
+    },
+    "gold_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/gold_lantern.png"
+    },
+    "gold_soul_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/gold_soul_lantern.png"
+    },
+    "copper_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/copper_lantern.png"
+    },
+    "copper_soul_lantern": {
+      "textures": "textures/blocks/mkt/lanterns/vanilla/copper_soul_lantern.png"
+    },
+    "gold_chain_1": {
+      "textures": "textures/blocks/mkt/chains/gold_chain_1.png"
+    },
+    "gold_chain_2": {
+      "textures": "textures/blocks/mkt/chains/gold_chain_2.png"
+    },
+    "copper_chain_1": {
+      "textures": "textures/blocks/mkt/chains/copper_chain_1.png"
+    },
+    "copper_chain_2": {
+      "textures": "textures/blocks/mkt/chains/copper_chain_2.png"
+    },
+    "lamp_small": {
+      "textures": "textures/blocks/mkt/lanterns/modern/small.png"
+    },
+    "lamp_tall": {
+      "textures": "textures/blocks/mkt/lanterns/modern/tall.png"
+    }
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:copper_ingot_from_nugget"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "###", "###"],
+    "key": {
+      "#": {
+        "item": "mkt:copper_nugget"
+      }
+    },
+    "result": {
+      "item": "minecraft:copper_ingot",
+      "count": 1
+    }
+  }
+}

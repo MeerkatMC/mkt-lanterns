@@ -1,24 +1,129 @@
 {
-	"format_version": "1.21.0",
-	"lantern_andesite": {
-		"sound": "stone"
-	},
-	"lantern_calcite": {
-		"sound": "calcite"
-	},
-	"lantern_diorite": {
-		"sound": "stone"
-	},
-	"lantern_granite": {
-		"sound": "stone"
-	},
-	"lantern_sandstone": {
-		"sound": "stone"
-	},
-	"lantern_stone": {
-		"sound": "stone"
-	},
-	"lantern_tuff": {
-		"sound": "tuff"
-	}
+  "format_version": "1.21.0",
+  "lantern_andesite": {
+    "sound": "stone"
+  },
+  "lantern_calcite": {
+    "sound": "calcite"
+  },
+  "lantern_diorite": {
+    "sound": "stone"
+  },
+  "lantern_granite": {
+    "sound": "stone"
+  },
+  "lantern_sandstone": {
+    "sound": "stone"
+  },
+  "lantern_stone": {
+    "sound": "stone"
+  },
+  "lantern_tuff": {
+    "sound": "tuff"
+  },
+  "mkt:golden_chain": {
+    "sound": "chain"
+  },
+  "mkt:copper_chain": {
+    "sound": "chain"
+  },
+  "mkt:acacia_lantern": {
+    "sound": "planks"
+  },
+  "mkt:acacia_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:acacia_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:bamboo_lantern": {
+    "sound": "planks"
+  },
+  "mkt:bamboo_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:bamboo_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:birch_lantern": {
+    "sound": "planks"
+  },
+  "mkt:birch_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:birch_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:cherry_lantern": {
+    "sound": "planks"
+  },
+  "mkt:cherry_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:cherry_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:crimson_lantern": {
+    "sound": "planks"
+  },
+  "mkt:crimson_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:crimson_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:dark_oak_lantern": {
+    "sound": "planks"
+  },
+  "mkt:dark_oak_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:dark_oak_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:jungle_lantern": {
+    "sound": "planks"
+  },
+  "mkt:jungle_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:jungle_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:mangrove_lantern": {
+    "sound": "planks"
+  },
+  "mkt:mangrove_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:mangrove_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:oak_lantern": {
+    "sound": "planks"
+  },
+  "mkt:oak_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:oak_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:spruce_lantern": {
+    "sound": "planks"
+  },
+  "mkt:spruce_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:spruce_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:warped_lantern": {
+    "sound": "planks"
+  },
+  "mkt:warped_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:warped_redstone_lantern": {
+    "sound": "planks"
+  }
 }

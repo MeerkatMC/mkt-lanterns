@@ -1,19 +1,19 @@
 {
   "format_version": 2,
   "header": {
-    "name": "More Lighting",
+    "name": "More Lighting (v1.0.1) BP",
     "description": "More Lighting",
-    "uuid": "a3304bef-49b9-45f8-95e7-1495c6f627c0",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 70]
+    "uuid": "b0610186-bb95-403a-9872-50f48ef87005",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 80]
   },
   "modules": [
     {
       "description": "Script resources",
       "language": "javascript",
       "type": "script",
-      "uuid": "00f0c99f-978e-4a39-a568-aaa8084878bc",
-      "version": [1, 0, 0],
+      "uuid": "8216db65-8a84-441a-8284-cf318890370d",
+      "version": [1, 0, 1],
       "entry": "scripts/main.js"
     }
   ],
@@ -23,8 +23,8 @@
       "version": "1.18.0"
     },
     {
-      "uuid": "500c9d0e-5241-46e8-9416-9c87013efb77",
-      "version": [1, 0, 0]
+      "uuid": "e7629acf-d894-4148-bd29-cb6961858d0e",
+      "version": [1, 0, 1]
     }
   ]
 }

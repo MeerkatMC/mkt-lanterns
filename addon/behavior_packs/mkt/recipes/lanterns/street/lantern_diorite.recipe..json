@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:lantern_diorite"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["ngn", "gtg", "sgs"],
+    "key": {
+      "n": { "item": "minecraft:iron_nugget" },
+      "g": { "item": "minecraft:glass_pane" },
+      "t": { "item": "minecraft:torch" },
+      "s": { "item": "minecraft:diorite" }
+    },
+    "unlock": [
+      { "item": "minecraft:diorite" },
+      { "item": "minecraft:iron_nugget" },
+      { "item": "minecraft:glass_pane" },
+      { "item": "minecraft:torch" }
+    ],
+    "result": {
+      "item": "mkt:lantern_diorite",
+      "count": 2
+    }
+  }
+}

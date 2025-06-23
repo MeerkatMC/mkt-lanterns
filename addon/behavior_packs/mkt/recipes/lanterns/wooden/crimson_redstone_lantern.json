@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:crimson_redstone_lantern"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "#l#", "###"],
+    "key": {
+      "#": {
+        "item": "minecraft:crimson_planks"
+      },
+      "l": {
+        "item": "minecraft:redstone_torch"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:crimson_planks"
+      },
+      {
+        "item": "minecraft:redstone_torch"
+      }
+    ],
+    "result": {
+      "item": "mkt:crimson_redstone_lantern",
+      "count": 3
+    }
+  }
+}

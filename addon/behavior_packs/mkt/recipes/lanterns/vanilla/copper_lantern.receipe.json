@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mkt:copper_lanterns"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["###", "#l#", "###"],
+    "key": {
+      "#": { "item": "mkt:copper_nugget" },
+      "l": { "item": "minecraft:torch" }
+    },
+    "unlock": [{ "item": "mkt:copper_nugget" }, { "item": "minecraft:torch" }],
+    "result": {
+      "item": "mkt:copper_lanterns"
+    }
+  }
+}
