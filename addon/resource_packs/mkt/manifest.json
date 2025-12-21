@@ -1,24 +1,24 @@
 {
   "format_version": 2,
   "header": {
-    "name": "More Lighting (v1.0.1) RP",
+    "name": "More Lighting (v1.0.2) RP",
     "description": "More Lighting",
-    "uuid": "e7629acf-d894-4148-bd29-cb6961858d0e",
-    "version": [1, 0, 1],
-    "min_engine_version": [1, 21, 80]
+    "uuid": "f3fc21a7-90bf-4aff-b7b0-be13435b109d",
+    "version": [1, 0, 2],
+    "min_engine_version": [1, 21, 120]
   },
   "modules": [
     {
       "description": "My Resource Pack",
       "type": "resources",
-      "uuid": "b751f9b4-d925-410a-b6a7-0859f57b7c08",
-      "version": [1, 0, 1]
+      "uuid": "8363338f-bcff-47f3-bb18-dafd83cab53a",
+      "version": [1, 0, 2]
     }
   ],
   "dependencies": [
     {
-      "uuid": "b0610186-bb95-403a-9872-50f48ef87005",
-      "version": [1, 0, 1]
+      "uuid": "92709f25-f43e-4d98-b5fd-d1888bcbb79e",
+      "version": [1, 0, 2]
     }
   ]
 }

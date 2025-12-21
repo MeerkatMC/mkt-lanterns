@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.50",
+  "format_version": "1.21.130",
   "minecraft:block": {
     "description": {
       "identifier": "mkt:lantern_tuff",
@@ -11,7 +11,7 @@
       }
     },
     "components": {
-      "minecraft:custom_components": ["mkt:light_control_simple"],
+      "mkt:light_control_simple": {},
       "minecraft:collision_box": {
         "origin": [-5, 0, -5],
         "size": [10, 13, 10]
@@ -64,29 +64,40 @@
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 15
       },
-      "minecraft:geometry": "geometry.lanterns",
-      "minecraft:material_instances": {
-        "light_face": {
-          "texture": "lantern_face",
-          "render_method": "alpha_test"
-        },
-        "*": {
-          "texture": "tuff",
-          "render_method": "alpha_test"
-        }
-      },
       "minecraft:map_color": "#ffffff"
     },
     "permutations": [
       {
         "condition": "q.block_state('mkt:light_is_on')",
         "components": {
+          "minecraft:geometry": "geometry.lanterns",
+          "minecraft:material_instances": {
+            "light_face": {
+              "texture": "lantern_face_on",
+              "render_method": "alpha_test"
+            },
+            "*": {
+              "texture": "tuff",
+              "render_method": "alpha_test"
+            }
+          },
           "minecraft:light_emission": 15
         }
       },
       {
         "condition": "!q.block_state('mkt:light_is_on')",
         "components": {
+          "minecraft:geometry": "geometry.lanterns",
+          "minecraft:material_instances": {
+            "light_face": {
+              "texture": "lantern_face_off",
+              "render_method": "alpha_test"
+            },
+            "*": {
+              "texture": "tuff",
+              "render_method": "alpha_test"
+            }
+          },
           "minecraft:light_emission": 0
         }
       }

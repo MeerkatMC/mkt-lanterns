@@ -7,10 +7,10 @@
     "tags": ["crafting_table"],
     "pattern": ["###", "#l#", "###"],
     "key": {
-      "#": { "item": "mkt:copper_nugget" },
+      "#": { "item": "minecraft:copper_nugget" },
       "l": { "item": "minecraft:soul_torch" }
     },
-    "unlock": [{ "item": "mkt:copper_nugget" }, { "item": "minecraft:soul_torch" }],
+    "unlock": [{ "item": "minecraft:copper_nugget" }, { "item": "minecraft:soul_torch" }],
     "result": {
       "item": "mkt:copper_soul_lanterns"
     }

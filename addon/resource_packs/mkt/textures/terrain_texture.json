@@ -1,11 +1,14 @@
 {
-  "resource_pack_name": "vanilla",
+  "resource_pack_name": "mkt-lanterns",
   "texture_name": "atlas.terrain",
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    "lantern_face": {
-      "textures": "textures/blocks/mkt/lanterns/light.png"
+    "lantern_face_on": {
+      "textures": "textures/blocks/mkt/lanterns/light_on.png"
+    },
+    "lantern_face_off": {
+      "textures": "textures/blocks/mkt/lanterns/light_off.png"
     },
     "acacia_lantern_top": {
       "textures": "textures/blocks/mkt/lanterns/wooden/acacia_lantern_top.png"

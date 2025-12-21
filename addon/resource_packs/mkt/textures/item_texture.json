@@ -1,8 +1,8 @@
 {
-  "resource_pack_name": "vanilla",
+  "resource_pack_name": "mkt-lanterns",
   "texture_name": "atlas.items",
   "texture_data": {
-    "mkt.copper_nugget": {
+    "copper_nuggets": {
       "textures": ["textures/items/mkt/copper_nugget.png"]
     }
   }
