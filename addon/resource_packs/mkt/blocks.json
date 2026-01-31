@@ -24,9 +24,6 @@
   "mkt:golden_chain": {
     "sound": "chain"
   },
-  "mkt:copper_chain": {
-    "sound": "chain"
-  },
   "mkt:acacia_lantern": {
     "sound": "planks"
   },
@@ -106,6 +103,15 @@
     "sound": "planks"
   },
   "mkt:oak_redstone_lantern": {
+    "sound": "planks"
+  },
+  "mkt:pale_oak_lantern": {
+    "sound": "planks"
+  },
+  "mkt:pale_oak_soul_lantern": {
+    "sound": "planks"
+  },
+  "mkt:pale_oak_redstone_lantern": {
     "sound": "planks"
   },
   "mkt:spruce_lantern": {

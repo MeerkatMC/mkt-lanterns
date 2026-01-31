@@ -1,30 +1,30 @@
 {
   "format_version": 2,
   "header": {
-    "name": "More Lighting (v1.0.2) BP",
+    "name": "More Lighting (v1.1.0) BP",
     "description": "More Lighting",
-    "uuid": "92709f25-f43e-4d98-b5fd-d1888bcbb79e",
-    "version": [1, 0, 2],
-    "min_engine_version": [1, 21, 120]
+    "uuid": "ef8020a1-a300-4a31-a231-ca1b2998f968",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 21, 130]
   },
   "modules": [
     {
       "description": "Script resources",
       "language": "javascript",
       "type": "script",
-      "uuid": "818a15e9-9672-46dd-b1a5-bcb8596fed2f",
-      "version": [1, 0, 2],
+      "uuid": "31ecf730-723c-417e-b7cf-49bca43b496a",
+      "version": [1, 1, 0],
       "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
     {
       "module_name": "@minecraft/server",
-      "version": "2.0.0"
+      "version": "2.4.0"
     },
     {
-      "uuid": "f3fc21a7-90bf-4aff-b7b0-be13435b109d",
-      "version": [1, 0, 2]
+      "uuid": "f2ba3719-0af1-4f99-b2e7-a25a82c54b06",
+      "version": [1, 1, 0]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.20",
+  "format_version": "1.21.130",
   "minecraft:block": {
     "description": {
       "identifier": "mkt:birch_lantern",
@@ -58,26 +58,6 @@
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 30
       },
-      "minecraft:material_instances": {
-        "up": {
-          "texture": "birch_lantern_top",
-          "render_method": "opaque",
-          "face_dimming": false,
-          "ambient_occlusion": false
-        },
-        "down": {
-          "texture": "birch_lantern_top",
-          "render_method": "opaque",
-          "face_dimming": false,
-          "ambient_occlusion": false
-        },
-        "*": {
-          "texture": "birch_lantern_side",
-          "render_method": "opaque",
-          "face_dimming": false,
-          "ambient_occlusion": false
-        }
-      },
       "minecraft:placement_filter": {
         "conditions": [
           {
@@ -91,6 +71,26 @@
       {
         "condition": "q.block_state('minecraft:block_face') == 'up'",
         "components": {
+          "minecraft:material_instances": {
+            "up": {
+              "texture": "birch_lantern_top",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "down": {
+              "texture": "birch_lantern_top",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "*": {
+              "texture": "birch_lantern_side",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
           "minecraft:geometry": {
             "identifier": "geometry.wooden_lantern",
             "bone_visibility": {
@@ -111,6 +111,26 @@
       {
         "condition": "q.block_state('minecraft:block_face') == 'down'",
         "components": {
+          "minecraft:material_instances": {
+            "up": {
+              "texture": "birch_lantern_top",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "down": {
+              "texture": "birch_lantern_top",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "*": {
+              "texture": "birch_lantern_side",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
           "minecraft:geometry": {
             "identifier": "geometry.wooden_lantern",
             "bone_visibility": {

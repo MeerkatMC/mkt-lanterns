@@ -1,6 +1,6 @@
 {
   "name": "lanterns",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "productName": "More Lighting",
   "description": "More Lighting",
   "private": true,
@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@minecraft/math": "^2.2.11",
-    "@minecraft/server": "^2.0.0",
+    "@minecraft/server": "^2.4.0",
     "@minecraft/server-ui": "^2.0.0",
-    "@minecraft/vanilla-data": "^1.21.90"
+    "@minecraft/vanilla-data": "^1.21.130"
   }
 }

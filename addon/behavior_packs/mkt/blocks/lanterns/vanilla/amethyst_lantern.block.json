@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.20",
+  "format_version": "1.21.130",
   "minecraft:block": {
     "description": {
       "identifier": "mkt:amethyst_lanterns",
@@ -58,14 +58,6 @@
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 30
       },
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "amethyst_lantern",
-          "render_method": "opaque",
-          "face_dimming": false,
-          "ambient_occlusion": false
-        }
-      },
       "minecraft:placement_filter": {
         "conditions": [
           {
@@ -79,6 +71,14 @@
       {
         "condition": "q.block_state('minecraft:block_face') == 'up'",
         "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amethyst_lantern",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
           "minecraft:geometry": {
             "identifier": "geometry.mkt.vanilla_lantern",
             "bone_visibility": {
@@ -99,6 +99,14 @@
       {
         "condition": "q.block_state('minecraft:block_face') == 'down'",
         "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amethyst_lantern",
+              "render_method": "opaque",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
           "minecraft:geometry": {
             "identifier": "geometry.mkt.vanilla_lantern",
             "bone_visibility": {
