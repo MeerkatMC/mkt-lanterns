@@ -70,7 +70,7 @@
       {
         "condition": "q.block_state('mkt:light_is_on')",
         "components": {
-          "minecraft:geometry": "geometry.lanterns",
+          "minecraft:geometry": "geometry.mkt.stone_lantern",
           "minecraft:material_instances": {
             "light_face": {
               "texture": "lantern_face_on",
@@ -87,7 +87,7 @@
       {
         "condition": "!q.block_state('mkt:light_is_on')",
         "components": {
-          "minecraft:geometry": "geometry.lanterns",
+          "minecraft:geometry": "geometry.mkt.stone_lantern",
           "minecraft:material_instances": {
             "light_face": {
               "texture": "lantern_face_off",

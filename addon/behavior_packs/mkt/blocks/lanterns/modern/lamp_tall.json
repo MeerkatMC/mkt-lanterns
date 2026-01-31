@@ -10,9 +10,13 @@
         "minecraft:placement_direction": {
           "enabled_states": ["minecraft:facing_direction"]
         }
+      },
+      "states": {
+        "mkt:light_is_on": [true, false]
       }
     },
     "components": {
+      "mkt:light_control_simple": {},
       "minecraft:collision_box": {
         "origin": [-6, 0, -6],
         "size": [12, 16, 12]
@@ -106,6 +110,18 @@
           "minecraft:transformation": {
             "rotation": [0, 270, 0]
           }
+        }
+      },
+      {
+        "condition": "q.block_state('mkt:light_is_on')",
+        "components": {
+          "minecraft:light_emission": 10
+        }
+      },
+      {
+        "condition": "!q.block_state('mkt:light_is_on')",
+        "components": {
+          "minecraft:light_emission": 0
         }
       }
     ]

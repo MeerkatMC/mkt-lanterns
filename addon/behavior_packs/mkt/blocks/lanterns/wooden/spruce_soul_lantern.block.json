@@ -92,7 +92,7 @@
             }
           },
           "minecraft:geometry": {
-            "identifier": "geometry.wooden_lantern",
+            "identifier": "geometry.mkt.wooden_lantern",
             "bone_visibility": {
               "upper": "q.block_state('minecraft:block_face') == 'down'",
               "lower": "q.block_state('minecraft:block_face') == 'up'"
@@ -132,7 +132,7 @@
             }
           },
           "minecraft:geometry": {
-            "identifier": "geometry.wooden_lantern",
+            "identifier": "geometry.mkt.wooden_lantern",
             "bone_visibility": {
               "upper": "q.block_state('minecraft:block_face') == 'down'",
               "lower": "q.block_state('minecraft:block_face') == 'up'"

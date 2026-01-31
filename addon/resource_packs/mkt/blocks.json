@@ -1,24 +1,24 @@
 {
-  "format_version": "1.21.0",
-  "lantern_andesite": {
+  "format_version": "1.21.40",
+  "mkt:lantern_andesite": {
     "sound": "stone"
   },
-  "lantern_calcite": {
+  "mkt:lantern_calcite": {
     "sound": "calcite"
   },
-  "lantern_diorite": {
+  "mkt:lantern_diorite": {
     "sound": "stone"
   },
-  "lantern_granite": {
+  "mkt:lantern_granite": {
     "sound": "stone"
   },
-  "lantern_sandstone": {
+  "mkt:lantern_sandstone": {
     "sound": "stone"
   },
-  "lantern_stone": {
+  "mkt:lantern_stone": {
     "sound": "stone"
   },
-  "lantern_tuff": {
+  "mkt:lantern_tuff": {
     "sound": "tuff"
   },
   "mkt:golden_chain": {
